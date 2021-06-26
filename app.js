@@ -36,7 +36,7 @@ app.use(function(req,res,next){
   res.locals.currentUser =req.user;
   next();
 });
-console.log(req.user)
+// console.log(req.user)
 // const {OAuth2Client} = require('google-auth-library');
 // const CLIENT_ID = '333642631602-h2l1m29lfb5c1d0dta76nvv4so4bjeo4.apps.googleusercontent.com'
 // const client = new OAuth2Client(CLIENT_ID);
