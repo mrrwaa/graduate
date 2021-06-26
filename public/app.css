@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+}
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+  background-color: #082640 !important ;
+  color: white !important ;
+ padding : 10px  50px 10px 50px !important;
+border-radius: 10px !important;
+
+}
+.download-button:hover{
+
+  background-color: #D67205  !important ;
+  color: white !important ;
+
+
+}
+.colored-section {
+  background-color:#082640;
+  color: #fff;
+  opacity: .8;
+}
+
+.colord-sec {
+height: 100%;
+background-image: url("https://i.ibb.co/m59mRTj/hero-bg.png");
+
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+  color: #082640 !important;
+}
+ .nav-item:hover .nav-link {
+        color: #D67205 !important  ;
+
+    }
+
+
+
+  .header{
+ margin-top:5%;
+      }
+
+  .big-heading{
+ font-size: 42px;
+    font-weight: 700;
+ color:  #082640;
+ margin: 10px;
+      }
+
+  .header-p{
+ font-size: 30px;
+
+ color:  #082640;
+ margin: 10px;
+      }
+
+.users-img
+{
+  width: 100%;
+  height: 500px;
+}
+.users-title{
+font-family: 'Playfair Display', serif;
+text-align: left;
+color: #082640;
+margin-top: 120px;
+font-weight:  bold;
+margin-left: 20px;
+}
+
+.users-p{
+font-family: 'Roboto', sans-serif;
+text-align: left;
+font-size: 20px;
+text-align: justify;
+margin: 20px;
+
+
+}
+.different-img{
+ width: 100%;
+ height: 400px;
+
+}
+.different-heading{
+ text-align: left;
+ margin-top: 15%;
+
+
+}
+
+.scop{
+background-color: white;
+box-shadow:  0px 10px 20px #00000029;
+
+
+}
+/* performance Section */
+.info{
+text-align: center;
+margin-top: 10%;
+
+}
+
+.info h3{
+font-family: 'Playfair Display', serif;
+color: #082640;
+font-weight:  bold;
+font-size: 36px;
+}
+.info-p1{
+font-size: 18px;
+font-family: 'Roboto', sans-serif;
+color: #082640;
+}
+
+
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #dae1e6;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #D67205;
+}
+.different-heading{
+ text-align: center;
+ margin-top: 15%;
+ color: white;
+ font-family: 'Playfair Display', serif;
+
+}
+.img-hover-zoom {
+   /* [1.1] Set it as per your need */
+  overflow: hidden;
+  text-align: center;
+  margin-top: 90px;
+  /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform .8s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.1);
+  cursor: pointer;
+
+
+}
+
+
+
+.app li{
+margin-top: 20px;
+
+font-size: 18px;
+font-family: 'Roboto', sans-serif;
+color: #082640;
+}
+
+/* Footer Section */
+
+
+/* footer */
+
+.footer {
+    font-size: 1.2rem;
+    padding: 15px 0;
+    line-height: 1.6;
+    /* background-color: #e8eae6; */
+
+}
+
+.footer__text,
+.footer__link,
+.footer__title {
+    color: #aaaaaa;
+    padding: 3px 10px;
+    display: block;
+    font-size: 16px;
+}
+
+.footer__hr {
+    height: 1px;
+    width: 100%;
+    border: none;
+    background: #444444;
+}
+
+.footer__sections {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.footer__section {
+    box-sizing: border-box;
+    width: 25%;
+    padding: 15px 0;
+    flex-shrink: 0;
+}
+
+.footer__title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: black;
+}
+.fab{
+  width: 50px;
+  margin: 3px;
+  padding: 5px;
+}
+
+.footer__link:hover {
+    color: #cccccc;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+@media screen and (max-width: 768px) {
+    .footer__section { width: 50%; }
+}
+
+@media screen and (max-width: 480px) {
+    .footer__section { width: 100%; }
+}

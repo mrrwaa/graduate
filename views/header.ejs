@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>home</title>
+	<!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+   <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="/app.css">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<style type="text/css">
+	@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+</style>
+
+</head>
+
+<body>
+	<section class="colord-sec">
+		<div class="container-fluid">
+
+<!-- navbar -->
+
+			<nav class="navbar navbar-expand-lg  navbar-dark">
+
+        <a class="navbar-brand" href="/"><img src="https://svgshare.com/i/Wzu.svg" alt="Splash-Screen" border="0" width="120" height="90"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/feature">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Use App</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+
+            <% if(!currentUser){ %>
+              <li><a href="/login" class="log">Login</a></li>
+              <li><a href="/register" class="log">Sign Up</a></li>
+          <% } else { %>
+              <li><a href="#" class="log">Welcome<%= currentUser.username %><i class="far fa-user-circle fa-lg"></i></a></li>
+              <li><a href="/logout" class="log">Logout</a></li>
+          <% } %>
+          </ul>
+
+        </div>
+         <div class=" justify-content-end ">
+        <ul class="nav ">
+
+          <li class="nav-item ">
+
+            <a class="nav-link " href="/login" ></a>
+          </li>
+
+
+        </ul>
+      </div>
+      </nav>
