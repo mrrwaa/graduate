@@ -266,7 +266,20 @@ color: #082640;
 }
 footer{
 
+  height: 300px;
+  padding: 7% 10%;
+  background-image: url("https://i.ibb.co/RNppDnz/footer-bg.png");
   margin-top: 20px;
+  }
+  .social-icon{
+  margin-left: 10px;
+  color: #082640;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  }
+  
+  
 
 @media screen and (max-width: 768px) {
     .footer__section { width: 50%; }
