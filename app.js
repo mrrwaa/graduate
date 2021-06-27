@@ -55,6 +55,9 @@ app.get("/feature",function (req,res) {
   res.render("features.ejs")
 });
 
+app.get("/learn",function (req,res) {
+  res.render("learn.ejs")
+});
 //  translate
 app.get('/translator',(req,res) => {
   res.render('translat',{title:"Speech Translator Online to Multiple Languages - Free Media Tools",translated:""})

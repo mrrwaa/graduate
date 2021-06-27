@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+ body{
+
+   background-image: url(https://quillbot.com/images/theme/light/grammarChecker/ruleBoxBg.png);
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+   color: #082640;
+  
+}
+
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+ font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+  color: #082640 !important;
+}
+ .nav-item:hover .nav-link {
+        color: #D67205 !important  ;
+        
+    }
+
+
+
+.intro  {
+       margin: 4%;
+      text-align: center;
+    }
+
+.h{
+       padding: 5px;
+       color: #082640;
+
+    }
+
+
+.p{
+       padding: 5px;
+       color: #082640;
+       font-size: 20px;
+
+    }
+
+.left-text{
+       padding: 50px;
+
+    }
+.img{
+      text-align: center; }
