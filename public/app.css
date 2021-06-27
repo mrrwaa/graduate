@@ -262,7 +262,8 @@ color: #082640;
 
 .footer__link:hover {
     color: #cccccc;
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 0.15); 
+}
 footer{
 
   height: 300px;
