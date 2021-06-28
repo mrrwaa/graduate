@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+ body{
+
+   background-image: url(https://quillbot.com/images/theme/light/grammarChecker/ruleBoxBg.png);
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+   color: #082640;
+  
+}
+
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+ font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+  color: #082640 !important;
+}
+ .nav-item:hover .nav-link {
+        color: #D67205 !important  ;
+        
+    }
+
+.first  {
+       
+      text-align: center;
+      background-color: #F9F9F9;
+      color: #082640;
+      height: 300px;
+      padding: 6%;
+       line-height: 1.7;
+    margin: 0 0 1em;
+    }
+
+.img{
+       
+
+
+
+     text-align: center;
+    }
+
+    .h{
+       margin-top: 25%;
+    color: #082640; 
+  
+    }
+.p{
+       
+    color: #082640; 
+    padding:2%;
+    line-height: 1.7;
+    margin: 0 0 1em;
+    }
+
+.icon{
+       color: #D67205 !important;
+ 
+    }
+
+.download-button {
+  margin: 5% 3% 5% 0;
+  background-color: #082640 !important ;
+  color: white !important ;
+ padding : 10px  50px 10px 50px !important;
+border-radius: 10px !important;
+
+}
+.download-button:hover{
+  
+  background-color: #D67205  !important ;
+  color: white !important ;
+
+
+}

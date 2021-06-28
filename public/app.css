@@ -281,7 +281,6 @@ footer{
   cursor: pointer;
   }
   
-  
 
 @media screen and (max-width: 768px) {
     .footer__section { width: 50%; }
