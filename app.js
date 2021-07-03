@@ -85,7 +85,7 @@ app.get("/useapp" , function(req,res){
 
 app.post("/useapp" , function(req,res){
   const textArea = req.body.text
-  const url = "https://f8aa21b8b6e8.ngrok.io/predict?text="+textArea 
+  const url = "https://f952cd82e36e.ngrok.io/predict?text="+textArea 
   
   https.request(url , function(res){
       res.on("data" , function(data){
