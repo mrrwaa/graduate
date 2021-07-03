@@ -8,7 +8,7 @@ var express     = require("express"),
     LocalStrategy = require("passport-local"),
     // cookieParser = require('cookie-parser'),
     User        = require("./models/user")
-
+   https = require("https");
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
@@ -74,6 +74,28 @@ app.post('/translator',(req,res) => {
 });
 
 })
+
+
+//Error Correction
+
+
+app.get("/useapp" , function(req,res){
+  res.render("useapp.ejs")
+})
+
+app.post("/useapp" , function(req,res){
+  const textArea = req.body.text
+  const url = "https://f8aa21b8b6e8.ngrok.io/predict?text="+ textArea 
+  
+  https.get(url , function(res){
+      res.on("data" , function(data){
+          const text = JSON.parse(data)
+          console.log(text)
+             
+      })
+  })
+})
+
 
 app.get("/signup",function (req,res) {
   res.render("auth/register.ejs")
